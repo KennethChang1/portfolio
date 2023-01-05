@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #151515;
+  color: white;
+}
+
+.nav {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 80px !important;
+  }
+}
+
+.nav-logo {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.nav-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.nav-social > img {
+  width: 20px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+.text-secondary {
+  color: #D9D9D9;
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.profile-logo {
+  position: absolute;
+  z-index: -1;
+}
+
+.profile-logo-rings {
+  -webkit-transform: translateX(-80%);
+          transform: translateX(-80%);
+  width: 530px;
+}
+
+.profile-img {
+  width: 200px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .profile-info {
+    width: 600px;
+    text-align: left;
+  }
+}
+
+.profile-info > h2 {
+  font-size: 35px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  .profile-info > h2 {
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 40px;
+  }
+}
+
+.profile-info > h2 > span {
+  border-bottom: 4px solid #4EE1A0;
+}
+
+.profile-copy {
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.experience {
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .experience {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid white;
+    padding-top: 70px;
+    text-align: left;
+  }
+}
+
+.experience > div:nth-child(1) {
+  border-top: 1px solid white;
+  padding-top: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+  .experience > div:nth-child(1) {
+    padding-top: unset;
+    border-top: none;
+  }
+}
+
+.experience > div:nth-last-child(1) {
+  border-bottom: 1px solid white;
+  padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+  .experience > div:nth-last-child(1) {
+    border-bottom: none;
+  }
+}
+
+.experience-title {
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.experience-container {
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  .experience-container {
+    margin-bottom: 50px;
+  }
+}
+
+.project-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.project-head {
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 992px) {
+  .project-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2.29px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid #4EE1A0;
+  padding-bottom: 10px;
+}
+
+.btn-header {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .btn-header {
+    margin: unset;
+  }
+}
+
+.btn-margin {
+  margin-right: 20px;
+}
+
+.card-project {
+  margin-bottom: 50px;
+}
+
+.card-project-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-project-title {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card-project-tech {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  color: #D9D9D9;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
