@@ -8,7 +8,7 @@ const Profile = () => {
       />
       <div className="profile-info">
         <h2>
-          Nice to meet you! I'm <span>Kenneth Chang</span>.
+          Nice to meet you! I&apos;m <span>Kenneth Chang</span>.
         </h2>
         <p className="text-secondary profile-copy">
           I am a front-end developer with a strong passion for crafting

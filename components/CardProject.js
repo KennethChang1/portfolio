@@ -9,10 +9,15 @@ const CardProject = ({ title, links, tech, img }) => {
         ))}
       </div>
       <div className="btn-container">
-        <a href={links[1]} className="btn btn-margin" target="_blank">
+        <a
+          href={links[1]}
+          className="btn btn-margin"
+          target="_blank"
+          rel="noreferrer"
+        >
           view project
         </a>
-        <a href={links[0]} className="btn" target="_blank">
+        <a href={links[0]} className="btn" target="_blank" rel="noreferrer">
           view code
         </a>
       </div>

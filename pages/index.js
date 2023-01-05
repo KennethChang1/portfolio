@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 
-import CardProject from "./components/CardProject";
-import ExperienceItem from "./components/ExperienceItem";
-import Nav from "./components/Nav";
-import Profile from "./components/Profile";
+import CardProject from "../components/CardProject";
+import ExperienceItem from "../components/ExperienceItem";
+import Nav from "../components/Nav";
+import Profile from "../components/Profile";
 
 export default function Home() {
   return (
